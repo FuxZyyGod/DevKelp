@@ -28,6 +28,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  
 }
 
 .header {
@@ -48,6 +49,24 @@ body {
   align-items: center;
   color: whitesmoke;
   font-family: "Alagard";
+}
+
+.grid-item {
+  margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item {
+  width: 128px;
+  height: auto;
+  text-align: center;
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.item img {
+  border-radius: 10px;
 }
 
 .footer {
